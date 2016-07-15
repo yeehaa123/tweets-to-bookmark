@@ -1,0 +1,2236 @@
+{
+    "Records": [
+        {
+            "eventID": "a8ad2f38aff54fcef98227ba01b19553",
+            "eventName": "DELETE",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "eu-west-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1468609680,
+                "Keys": {
+                    "id": {
+                        "N": "753676547723255800"
+                    }
+                },
+                "NewImage": {
+                    "in_reply_to_status_id_str": {
+                        "S": "753668988773736448"
+                    },
+                    "in_reply_to_status_id": {
+                        "N": "753668988773736400"
+                    },
+                    "coordinates": {
+                        "NULL": true
+                    },
+                    "created_at": {
+                        "S": "Thu Jul 14 19:44:26 +0000 2016"
+                    },
+                    "in_reply_to_user_id_str": {
+                        "S": "251740633"
+                    },
+                    "truncated": {
+                        "BOOL": false
+                    },
+                    "source": {
+                        "S": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>"
+                    },
+                    "retweet_count": {
+                        "N": "0"
+                    },
+                    "retweeted": {
+                        "BOOL": false
+                    },
+                    "geo": {
+                        "NULL": true
+                    },
+                    "in_reply_to_screen_name": {
+                        "S": "ashlie07256june"
+                    },
+                    "is_quote_status": {
+                        "BOOL": false
+                    },
+                    "entities": {
+                        "M": {
+                            "urls": {
+                                "L": []
+                            },
+                            "hashtags": {
+                                "L": []
+                            },
+                            "user_mentions": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "0"
+                                                    },
+                                                    {
+                                                        "N": "16"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "ashlie07256june"
+                                            },
+                                            "id_str": {
+                                                "S": "251740633"
+                                            },
+                                            "name": {
+                                                "S": "Ashleigh Gibson"
+                                            },
+                                            "id": {
+                                                "N": "251740633"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "17"
+                                                    },
+                                                    {
+                                                        "N": "30"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "BaukeMollema"
+                                            },
+                                            "id_str": {
+                                                "S": "110205768"
+                                            },
+                                            "name": {
+                                                "S": "Bauke Mollema"
+                                            },
+                                            "id": {
+                                                "N": "110205768"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "symbols": {
+                                "L": []
+                            }
+                        }
+                    },
+                    "id_str": {
+                        "S": "753676547723255808"
+                    },
+                    "in_reply_to_user_id": {
+                        "N": "251740633"
+                    },
+                    "favorite_count": {
+                        "N": "0"
+                    },
+                    "contributors": {
+                        "NULL": true
+                    },
+                    "id": {
+                        "N": "753676547723255800"
+                    },
+                    "place": {
+                        "M": {
+                            "contained_within": {
+                                "L": []
+                            },
+                            "country_code": {
+                                "S": "NL"
+                            },
+                            "country": {
+                                "S": "The Netherlands"
+                            },
+                            "full_name": {
+                                "S": "Rotterdam, The Netherlands"
+                            },
+                            "bounding_box": {
+                                "M": {
+                                    "coordinates": {
+                                        "L": [
+                                            {
+                                                "L": [
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "3.9418364"
+                                                            },
+                                                            {
+                                                                "N": "51.8421131"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "4.6013785"
+                                                            },
+                                                            {
+                                                                "N": "51.8421131"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "4.6013785"
+                                                            },
+                                                            {
+                                                                "N": "52.0068016"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "3.9418364"
+                                                            },
+                                                            {
+                                                                "N": "52.0068016"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "S": "Polygon"
+                                    }
+                                }
+                            },
+                            "place_type": {
+                                "S": "city"
+                            },
+                            "name": {
+                                "S": "Rotterdam"
+                            },
+                            "attributes": {
+                                "M": {}
+                            },
+                            "id": {
+                                "S": "ea0a61fa0c646676"
+                            },
+                            "url": {
+                                "S": "https://api.twitter.com/1.1/geo/id/ea0a61fa0c646676.json"
+                            }
+                        }
+                    },
+                    "text": {
+                        "S": "@ashlie07256june @BaukeMollema There are also sour winners. They tend to attract groupies that don't appreciate the sport or its history."
+                    },
+                    "lang": {
+                        "S": "en"
+                    },
+                    "user": {
+                        "M": {
+                            "utc_offset": {
+                                "N": "10800"
+                            },
+                            "friends_count": {
+                                "N": "329"
+                            },
+                            "profile_image_url_https": {
+                                "S": "https://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "profile_background_image_url": {
+                                "S": "http://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "listed_count": {
+                                "N": "44"
+                            },
+                            "default_profile_image": {
+                                "BOOL": false
+                            },
+                            "favourites_count": {
+                                "N": "888"
+                            },
+                            "description": {
+                                "S": "'Think'.gsub(/[.ink]/, tinkerer[2..-1]) = thinkerer"
+                            },
+                            "created_at": {
+                                "S": "Fri Jan 16 00:05:46 +0000 2009"
+                            },
+                            "is_translator": {
+                                "BOOL": false
+                            },
+                            "profile_background_image_url_https": {
+                                "S": "https://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "protected": {
+                                "BOOL": false
+                            },
+                            "screen_name": {
+                                "S": "yeehaa"
+                            },
+                            "profile_link_color": {
+                                "S": "DD2E44"
+                            },
+                            "id_str": {
+                                "S": "19046408"
+                            },
+                            "is_translation_enabled": {
+                                "BOOL": false
+                            },
+                            "id": {
+                                "N": "19046408"
+                            },
+                            "profile_background_color": {
+                                "S": "000000"
+                            },
+                            "geo_enabled": {
+                                "BOOL": true
+                            },
+                            "lang": {
+                                "S": "en"
+                            },
+                            "has_extended_profile": {
+                                "BOOL": true
+                            },
+                            "profile_sidebar_border_color": {
+                                "S": "000000"
+                            },
+                            "profile_text_color": {
+                                "S": "000000"
+                            },
+                            "verified": {
+                                "BOOL": false
+                            },
+                            "profile_image_url": {
+                                "S": "http://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "time_zone": {
+                                "S": "Athens"
+                            },
+                            "contributors_enabled": {
+                                "BOOL": false
+                            },
+                            "url": {
+                                "S": "https://t.co/QJBAktzEjY"
+                            },
+                            "profile_background_tile": {
+                                "BOOL": false
+                            },
+                            "profile_banner_url": {
+                                "S": "https://pbs.twimg.com/profile_banners/19046408/1371019465"
+                            },
+                            "entities": {
+                                "M": {
+                                    "description": {
+                                        "M": {
+                                            "urls": {
+                                                "L": []
+                                            }
+                                        }
+                                    },
+                                    "url": {
+                                        "M": {
+                                            "urls": {
+                                                "L": [
+                                                    {
+                                                        "M": {
+                                                            "display_url": {
+                                                                "S": "offcourse.io"
+                                                            },
+                                                            "indices": {
+                                                                "L": [
+                                                                    {
+                                                                        "N": "0"
+                                                                    },
+                                                                    {
+                                                                        "N": "23"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "expanded_url": {
+                                                                "S": "http://offcourse.io"
+                                                            },
+                                                            "url": {
+                                                                "S": "https://t.co/QJBAktzEjY"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "statuses_count": {
+                                "N": "2979"
+                            },
+                            "follow_request_sent": {
+                                "BOOL": false
+                            },
+                            "default_profile": {
+                                "BOOL": false
+                            },
+                            "following": {
+                                "BOOL": false
+                            },
+                            "followers_count": {
+                                "N": "246"
+                            },
+                            "profile_use_background_image": {
+                                "BOOL": false
+                            },
+                            "name": {
+                                "S": "Jan Hein Hoogstad"
+                            },
+                            "location": {
+                                "S": "Boulder, CO"
+                            },
+                            "profile_sidebar_fill_color": {
+                                "S": "000000"
+                            },
+                            "notifications": {
+                                "BOOL": false
+                            }
+                        }
+                    },
+                    "favorited": {
+                        "BOOL": false
+                    }
+                },
+                "SequenceNumber": "800000000010119398248",
+                "SizeBytes": 2515,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:eu-west-1:774182433398:table/tweets/stream/2016-07-15T19:06:30.724"
+        },
+        {
+            "eventID": "50cc6d911745bf2ba55494a9aa38b6d4",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "eu-west-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1468609680,
+                "Keys": {
+                    "id": {
+                        "N": "753638746155868200"
+                    }
+                },
+                "NewImage": {
+                    "in_reply_to_status_id_str": {
+                        "S": "753634850297483265"
+                    },
+                    "in_reply_to_status_id": {
+                        "N": "753634850297483300"
+                    },
+                    "coordinates": {
+                        "NULL": true
+                    },
+                    "created_at": {
+                        "S": "Thu Jul 14 17:14:13 +0000 2016"
+                    },
+                    "in_reply_to_user_id_str": {
+                        "S": "14183947"
+                    },
+                    "truncated": {
+                        "BOOL": false
+                    },
+                    "source": {
+                        "S": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>"
+                    },
+                    "retweet_count": {
+                        "N": "0"
+                    },
+                    "retweeted": {
+                        "BOOL": false
+                    },
+                    "geo": {
+                        "NULL": true
+                    },
+                    "in_reply_to_screen_name": {
+                        "S": "NOSwielrennen"
+                    },
+                    "is_quote_status": {
+                        "BOOL": false
+                    },
+                    "entities": {
+                        "M": {
+                            "urls": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "display_url": {
+                                                "S": "weforum.org/agenda/2016/07…"
+                                            },
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "0"
+                                                    },
+                                                    {
+                                                        "N": "23"
+                                                    }
+                                                ]
+                                            },
+                                            "expanded_url": {
+                                                "S": "https://www.weforum.org/agenda/2016/07/our-global-institutions-are-not-fit-for-purpose-it-s-time-for-reform"
+                                            },
+                                            "url": {
+                                                "S": "https://t.co/Oq8mAA7VVi"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "hashtags": {
+                                "L": []
+                            },
+                            "user_mentions": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "0"
+                                                    },
+                                                    {
+                                                        "N": "14"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "NOSwielrennen"
+                                            },
+                                            "id_str": {
+                                                "S": "14183947"
+                                            },
+                                            "name": {
+                                                "S": "NOS Wielrennen"
+                                            },
+                                            "id": {
+                                                "N": "14183947"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "symbols": {
+                                "L": []
+                            }
+                        }
+                    },
+                    "id_str": {
+                        "S": "753638746155868160"
+                    },
+                    "in_reply_to_user_id": {
+                        "N": "14183947"
+                    },
+                    "favorite_count": {
+                        "N": "1"
+                    },
+                    "contributors": {
+                        "NULL": true
+                    },
+                    "id": {
+                        "N": "753638746155868200"
+                    },
+                    "place": {
+                        "M": {
+                            "contained_within": {
+                                "L": []
+                            },
+                            "country_code": {
+                                "S": "NL"
+                            },
+                            "country": {
+                                "S": "The Netherlands"
+                            },
+                            "full_name": {
+                                "S": "Rotterdam, The Netherlands"
+                            },
+                            "bounding_box": {
+                                "M": {
+                                    "coordinates": {
+                                        "L": [
+                                            {
+                                                "L": [
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "3.9418364"
+                                                            },
+                                                            {
+                                                                "N": "51.8421131"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "4.6013785"
+                                                            },
+                                                            {
+                                                                "N": "51.8421131"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "4.6013785"
+                                                            },
+                                                            {
+                                                                "N": "52.0068016"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "3.9418364"
+                                                            },
+                                                            {
+                                                                "N": "52.0068016"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "S": "Polygon"
+                                    }
+                                }
+                            },
+                            "place_type": {
+                                "S": "city"
+                            },
+                            "name": {
+                                "S": "Rotterdam"
+                            },
+                            "attributes": {
+                                "M": {}
+                            },
+                            "id": {
+                                "S": "ea0a61fa0c646676"
+                            },
+                            "url": {
+                                "S": "https://api.twitter.com/1.1/geo/id/ea0a61fa0c646676.json"
+                            }
+                        }
+                    },
+                    "text": {
+                        "S": "@NOSwielrennen blijft ook in gebreke door dit soort berichten zonder enige vorm van uitleg online te plaatsen."
+                    },
+                    "lang": {
+                        "S": "nl"
+                    },
+                    "user": {
+                        "M": {
+                            "utc_offset": {
+                                "N": "10800"
+                            },
+                            "friends_count": {
+                                "N": "329"
+                            },
+                            "profile_image_url_https": {
+                                "S": "https://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "profile_background_image_url": {
+                                "S": "http://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "listed_count": {
+                                "N": "44"
+                            },
+                            "default_profile_image": {
+                                "BOOL": false
+                            },
+                            "favourites_count": {
+                                "N": "888"
+                            },
+                            "description": {
+                                "S": "'Think'.gsub(/[.ink]/, tinkerer[2..-1]) = thinkerer"
+                            },
+                            "created_at": {
+                                "S": "Fri Jan 16 00:05:46 +0000 2009"
+                            },
+                            "is_translator": {
+                                "BOOL": false
+                            },
+                            "profile_background_image_url_https": {
+                                "S": "https://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "protected": {
+                                "BOOL": false
+                            },
+                            "screen_name": {
+                                "S": "yeehaa"
+                            },
+                            "profile_link_color": {
+                                "S": "DD2E44"
+                            },
+                            "id_str": {
+                                "S": "19046408"
+                            },
+                            "is_translation_enabled": {
+                                "BOOL": false
+                            },
+                            "id": {
+                                "N": "19046408"
+                            },
+                            "profile_background_color": {
+                                "S": "000000"
+                            },
+                            "geo_enabled": {
+                                "BOOL": true
+                            },
+                            "lang": {
+                                "S": "en"
+                            },
+                            "has_extended_profile": {
+                                "BOOL": true
+                            },
+                            "profile_sidebar_border_color": {
+                                "S": "000000"
+                            },
+                            "profile_text_color": {
+                                "S": "000000"
+                            },
+                            "verified": {
+                                "BOOL": false
+                            },
+                            "profile_image_url": {
+                                "S": "http://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "time_zone": {
+                                "S": "Athens"
+                            },
+                            "contributors_enabled": {
+                                "BOOL": false
+                            },
+                            "url": {
+                                "S": "https://t.co/QJBAktzEjY"
+                            },
+                            "profile_background_tile": {
+                                "BOOL": false
+                            },
+                            "profile_banner_url": {
+                                "S": "https://pbs.twimg.com/profile_banners/19046408/1371019465"
+                            },
+                            "entities": {
+                                "M": {
+                                    "description": {
+                                        "M": {
+                                            "urls": {
+                                                "L": []
+                                            }
+                                        }
+                                    },
+                                    "url": {
+                                        "M": {
+                                            "urls": {
+                                                "L": [
+                                                    {
+                                                        "M": {
+                                                            "display_url": {
+                                                                "S": "offcourse.io"
+                                                            },
+                                                            "indices": {
+                                                                "L": [
+                                                                    {
+                                                                        "N": "0"
+                                                                    },
+                                                                    {
+                                                                        "N": "23"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "expanded_url": {
+                                                                "S": "http://offcourse.io"
+                                                            },
+                                                            "url": {
+                                                                "S": "https://t.co/QJBAktzEjY"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "statuses_count": {
+                                "N": "2979"
+                            },
+                            "follow_request_sent": {
+                                "BOOL": false
+                            },
+                            "default_profile": {
+                                "BOOL": false
+                            },
+                            "following": {
+                                "BOOL": false
+                            },
+                            "followers_count": {
+                                "N": "246"
+                            },
+                            "profile_use_background_image": {
+                                "BOOL": false
+                            },
+                            "name": {
+                                "S": "Jan Hein Hoogstad"
+                            },
+                            "location": {
+                                "S": "Boulder, CO"
+                            },
+                            "profile_sidebar_fill_color": {
+                                "S": "000000"
+                            },
+                            "notifications": {
+                                "BOOL": false
+                            }
+                        }
+                    },
+                    "favorited": {
+                        "BOOL": false
+                    }
+                },
+                "SequenceNumber": "900000000010119398301",
+                "SizeBytes": 2392,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:eu-west-1:774182433398:table/tweets/stream/2016-07-15T19:06:30.724"
+        },
+        {
+            "eventID": "8bfd40a17d1d9f442cbff68526dfe6d9",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "eu-west-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1468609680,
+                "Keys": {
+                    "id": {
+                        "N": "753637529383997400"
+                    }
+                },
+                "NewImage": {
+                    "in_reply_to_status_id_str": {
+                        "S": "753634850297483265"
+                    },
+                    "in_reply_to_status_id": {
+                        "N": "753634850297483300"
+                    },
+                    "coordinates": {
+                        "NULL": true
+                    },
+                    "created_at": {
+                        "S": "Thu Jul 14 17:09:23 +0000 2016"
+                    },
+                    "in_reply_to_user_id_str": {
+                        "S": "14183947"
+                    },
+                    "truncated": {
+                        "BOOL": false
+                    },
+                    "source": {
+                        "S": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>"
+                    },
+                    "retweet_count": {
+                        "N": "0"
+                    },
+                    "retweeted": {
+                        "BOOL": false
+                    },
+                    "geo": {
+                        "NULL": true
+                    },
+                    "in_reply_to_screen_name": {
+                        "S": "NOSwielrennen"
+                    },
+                    "is_quote_status": {
+                        "BOOL": false
+                    },
+                    "entities": {
+                        "M": {
+                            "urls": {
+                                "L": []
+                            },
+                            "hashtags": {
+                                "L": []
+                            },
+                            "user_mentions": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "0"
+                                                    },
+                                                    {
+                                                        "N": "14"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "NOSwielrennen"
+                                            },
+                                            "id_str": {
+                                                "S": "14183947"
+                                            },
+                                            "name": {
+                                                "S": "NOS Wielrennen"
+                                            },
+                                            "id": {
+                                                "N": "14183947"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "symbols": {
+                                "L": []
+                            }
+                        }
+                    },
+                    "id_str": {
+                        "S": "753637529383997440"
+                    },
+                    "in_reply_to_user_id": {
+                        "N": "14183947"
+                    },
+                    "favorite_count": {
+                        "N": "0"
+                    },
+                    "contributors": {
+                        "NULL": true
+                    },
+                    "id": {
+                        "N": "753637529383997400"
+                    },
+                    "place": {
+                        "M": {
+                            "contained_within": {
+                                "L": []
+                            },
+                            "country_code": {
+                                "S": "NL"
+                            },
+                            "country": {
+                                "S": "The Netherlands"
+                            },
+                            "full_name": {
+                                "S": "Rotterdam, The Netherlands"
+                            },
+                            "bounding_box": {
+                                "M": {
+                                    "coordinates": {
+                                        "L": [
+                                            {
+                                                "L": [
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "3.9418364"
+                                                            },
+                                                            {
+                                                                "N": "51.8421131"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "4.6013785"
+                                                            },
+                                                            {
+                                                                "N": "51.8421131"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "4.6013785"
+                                                            },
+                                                            {
+                                                                "N": "52.0068016"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "3.9418364"
+                                                            },
+                                                            {
+                                                                "N": "52.0068016"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "S": "Polygon"
+                                    }
+                                }
+                            },
+                            "place_type": {
+                                "S": "city"
+                            },
+                            "name": {
+                                "S": "Rotterdam"
+                            },
+                            "attributes": {
+                                "M": {}
+                            },
+                            "id": {
+                                "S": "ea0a61fa0c646676"
+                            },
+                            "url": {
+                                "S": "https://api.twitter.com/1.1/geo/id/ea0a61fa0c646676.json"
+                            }
+                        }
+                    },
+                    "text": {
+                        "S": "@NOSwielrennen kan iemand dit uitleggen?"
+                    },
+                    "lang": {
+                        "S": "nl"
+                    },
+                    "user": {
+                        "M": {
+                            "utc_offset": {
+                                "N": "10800"
+                            },
+                            "friends_count": {
+                                "N": "329"
+                            },
+                            "profile_image_url_https": {
+                                "S": "https://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "profile_background_image_url": {
+                                "S": "http://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "listed_count": {
+                                "N": "44"
+                            },
+                            "default_profile_image": {
+                                "BOOL": false
+                            },
+                            "favourites_count": {
+                                "N": "888"
+                            },
+                            "description": {
+                                "S": "'Think'.gsub(/[.ink]/, tinkerer[2..-1]) = thinkerer"
+                            },
+                            "created_at": {
+                                "S": "Fri Jan 16 00:05:46 +0000 2009"
+                            },
+                            "is_translator": {
+                                "BOOL": false
+                            },
+                            "profile_background_image_url_https": {
+                                "S": "https://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "protected": {
+                                "BOOL": false
+                            },
+                            "screen_name": {
+                                "S": "yeehaa"
+                            },
+                            "profile_link_color": {
+                                "S": "DD2E44"
+                            },
+                            "id_str": {
+                                "S": "19046408"
+                            },
+                            "is_translation_enabled": {
+                                "BOOL": false
+                            },
+                            "id": {
+                                "N": "19046408"
+                            },
+                            "profile_background_color": {
+                                "S": "000000"
+                            },
+                            "geo_enabled": {
+                                "BOOL": true
+                            },
+                            "lang": {
+                                "S": "en"
+                            },
+                            "has_extended_profile": {
+                                "BOOL": true
+                            },
+                            "profile_sidebar_border_color": {
+                                "S": "000000"
+                            },
+                            "profile_text_color": {
+                                "S": "000000"
+                            },
+                            "verified": {
+                                "BOOL": false
+                            },
+                            "profile_image_url": {
+                                "S": "http://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "time_zone": {
+                                "S": "Athens"
+                            },
+                            "contributors_enabled": {
+                                "BOOL": false
+                            },
+                            "url": {
+                                "S": "https://t.co/QJBAktzEjY"
+                            },
+                            "profile_background_tile": {
+                                "BOOL": false
+                            },
+                            "profile_banner_url": {
+                                "S": "https://pbs.twimg.com/profile_banners/19046408/1371019465"
+                            },
+                            "entities": {
+                                "M": {
+                                    "description": {
+                                        "M": {
+                                            "urls": {
+                                                "L": []
+                                            }
+                                        }
+                                    },
+                                    "url": {
+                                        "M": {
+                                            "urls": {
+                                                "L": [
+                                                    {
+                                                        "M": {
+                                                            "display_url": {
+                                                                "S": "offcourse.io"
+                                                            },
+                                                            "indices": {
+                                                                "L": [
+                                                                    {
+                                                                        "N": "0"
+                                                                    },
+                                                                    {
+                                                                        "N": "23"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "expanded_url": {
+                                                                "S": "http://offcourse.io"
+                                                            },
+                                                            "url": {
+                                                                "S": "https://t.co/QJBAktzEjY"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "statuses_count": {
+                                "N": "2979"
+                            },
+                            "follow_request_sent": {
+                                "BOOL": false
+                            },
+                            "default_profile": {
+                                "BOOL": false
+                            },
+                            "following": {
+                                "BOOL": false
+                            },
+                            "followers_count": {
+                                "N": "246"
+                            },
+                            "profile_use_background_image": {
+                                "BOOL": false
+                            },
+                            "name": {
+                                "S": "Jan Hein Hoogstad"
+                            },
+                            "location": {
+                                "S": "Boulder, CO"
+                            },
+                            "profile_sidebar_fill_color": {
+                                "S": "000000"
+                            },
+                            "notifications": {
+                                "BOOL": false
+                            }
+                        }
+                    },
+                    "favorited": {
+                        "BOOL": false
+                    }
+                },
+                "SequenceNumber": "1000000000010119398303",
+                "SizeBytes": 2321,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:eu-west-1:774182433398:table/tweets/stream/2016-07-15T19:06:30.724"
+        },
+        {
+            "eventID": "70c79c597aa4551c859b1c4eb25bee87",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "eu-west-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1468609680,
+                "Keys": {
+                    "id": {
+                        "N": "753650768113262600"
+                    }
+                },
+                "NewImage": {
+                    "in_reply_to_status_id_str": {
+                        "S": "753649751653056513"
+                    },
+                    "in_reply_to_status_id": {
+                        "N": "753649751653056500"
+                    },
+                    "coordinates": {
+                        "NULL": true
+                    },
+                    "created_at": {
+                        "S": "Thu Jul 14 18:01:59 +0000 2016"
+                    },
+                    "in_reply_to_user_id_str": {
+                        "S": "91577413"
+                    },
+                    "truncated": {
+                        "BOOL": false
+                    },
+                    "source": {
+                        "S": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>"
+                    },
+                    "retweet_count": {
+                        "N": "0"
+                    },
+                    "retweeted": {
+                        "BOOL": false
+                    },
+                    "geo": {
+                        "NULL": true
+                    },
+                    "in_reply_to_screen_name": {
+                        "S": "BobRasenberg"
+                    },
+                    "is_quote_status": {
+                        "BOOL": false
+                    },
+                    "entities": {
+                        "M": {
+                            "urls": {
+                                "L": []
+                            },
+                            "hashtags": {
+                                "L": []
+                            },
+                            "user_mentions": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "0"
+                                                    },
+                                                    {
+                                                        "N": "13"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "BobRasenberg"
+                                            },
+                                            "id_str": {
+                                                "S": "91577413"
+                                            },
+                                            "name": {
+                                                "S": "Bob Rasenberg"
+                                            },
+                                            "id": {
+                                                "N": "91577413"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "14"
+                                                    },
+                                                    {
+                                                        "N": "23"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "IlariaMe"
+                                            },
+                                            "id_str": {
+                                                "S": "44434107"
+                                            },
+                                            "name": {
+                                                "S": "Ilaria Pranzini"
+                                            },
+                                            "id": {
+                                                "N": "44434107"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "24"
+                                                    },
+                                                    {
+                                                        "N": "37"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "BaukeMollema"
+                                            },
+                                            "id_str": {
+                                                "S": "110205768"
+                                            },
+                                            "name": {
+                                                "S": "Bauke Mollema"
+                                            },
+                                            "id": {
+                                                "N": "110205768"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "38"
+                                                    },
+                                                    {
+                                                        "N": "45"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "LeTour"
+                                            },
+                                            "id_str": {
+                                                "S": "153403071"
+                                            },
+                                            "name": {
+                                                "S": "Le Tour de France"
+                                            },
+                                            "id": {
+                                                "N": "153403071"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "symbols": {
+                                "L": []
+                            }
+                        }
+                    },
+                    "id_str": {
+                        "S": "753650768113262592"
+                    },
+                    "in_reply_to_user_id": {
+                        "N": "91577413"
+                    },
+                    "favorite_count": {
+                        "N": "4"
+                    },
+                    "contributors": {
+                        "NULL": true
+                    },
+                    "id": {
+                        "N": "753650768113262600"
+                    },
+                    "place": {
+                        "M": {
+                            "contained_within": {
+                                "L": []
+                            },
+                            "country_code": {
+                                "S": "NL"
+                            },
+                            "country": {
+                                "S": "The Netherlands"
+                            },
+                            "full_name": {
+                                "S": "Rotterdam, The Netherlands"
+                            },
+                            "bounding_box": {
+                                "M": {
+                                    "coordinates": {
+                                        "L": [
+                                            {
+                                                "L": [
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "3.9418364"
+                                                            },
+                                                            {
+                                                                "N": "51.8421131"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "4.6013785"
+                                                            },
+                                                            {
+                                                                "N": "51.8421131"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "4.6013785"
+                                                            },
+                                                            {
+                                                                "N": "52.0068016"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "L": [
+                                                            {
+                                                                "N": "3.9418364"
+                                                            },
+                                                            {
+                                                                "N": "52.0068016"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "S": "Polygon"
+                                    }
+                                }
+                            },
+                            "place_type": {
+                                "S": "city"
+                            },
+                            "name": {
+                                "S": "Rotterdam"
+                            },
+                            "attributes": {
+                                "M": {}
+                            },
+                            "id": {
+                                "S": "ea0a61fa0c646676"
+                            },
+                            "url": {
+                                "S": "https://api.twitter.com/1.1/geo/id/ea0a61fa0c646676.json"
+                            }
+                        }
+                    },
+                    "text": {
+                        "S": "@BobRasenberg @IlariaMe @BaukeMollema @LeTour quintana got he same time as Yates, not Mollema. Still unfair though..."
+                    },
+                    "lang": {
+                        "S": "en"
+                    },
+                    "user": {
+                        "M": {
+                            "utc_offset": {
+                                "N": "10800"
+                            },
+                            "friends_count": {
+                                "N": "329"
+                            },
+                            "profile_image_url_https": {
+                                "S": "https://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "profile_background_image_url": {
+                                "S": "http://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "listed_count": {
+                                "N": "44"
+                            },
+                            "default_profile_image": {
+                                "BOOL": false
+                            },
+                            "favourites_count": {
+                                "N": "888"
+                            },
+                            "description": {
+                                "S": "'Think'.gsub(/[.ink]/, tinkerer[2..-1]) = thinkerer"
+                            },
+                            "created_at": {
+                                "S": "Fri Jan 16 00:05:46 +0000 2009"
+                            },
+                            "is_translator": {
+                                "BOOL": false
+                            },
+                            "profile_background_image_url_https": {
+                                "S": "https://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "protected": {
+                                "BOOL": false
+                            },
+                            "screen_name": {
+                                "S": "yeehaa"
+                            },
+                            "profile_link_color": {
+                                "S": "DD2E44"
+                            },
+                            "id_str": {
+                                "S": "19046408"
+                            },
+                            "is_translation_enabled": {
+                                "BOOL": false
+                            },
+                            "id": {
+                                "N": "19046408"
+                            },
+                            "profile_background_color": {
+                                "S": "000000"
+                            },
+                            "geo_enabled": {
+                                "BOOL": true
+                            },
+                            "lang": {
+                                "S": "en"
+                            },
+                            "has_extended_profile": {
+                                "BOOL": true
+                            },
+                            "profile_sidebar_border_color": {
+                                "S": "000000"
+                            },
+                            "profile_text_color": {
+                                "S": "000000"
+                            },
+                            "verified": {
+                                "BOOL": false
+                            },
+                            "profile_image_url": {
+                                "S": "http://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "time_zone": {
+                                "S": "Athens"
+                            },
+                            "contributors_enabled": {
+                                "BOOL": false
+                            },
+                            "url": {
+                                "S": "https://t.co/QJBAktzEjY"
+                            },
+                            "profile_background_tile": {
+                                "BOOL": false
+                            },
+                            "profile_banner_url": {
+                                "S": "https://pbs.twimg.com/profile_banners/19046408/1371019465"
+                            },
+                            "entities": {
+                                "M": {
+                                    "description": {
+                                        "M": {
+                                            "urls": {
+                                                "L": []
+                                            }
+                                        }
+                                    },
+                                    "url": {
+                                        "M": {
+                                            "urls": {
+                                                "L": [
+                                                    {
+                                                        "M": {
+                                                            "display_url": {
+                                                                "S": "offcourse.io"
+                                                            },
+                                                            "indices": {
+                                                                "L": [
+                                                                    {
+                                                                        "N": "0"
+                                                                    },
+                                                                    {
+                                                                        "N": "23"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "expanded_url": {
+                                                                "S": "http://offcourse.io"
+                                                            },
+                                                            "url": {
+                                                                "S": "https://t.co/QJBAktzEjY"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "statuses_count": {
+                                "N": "2979"
+                            },
+                            "follow_request_sent": {
+                                "BOOL": false
+                            },
+                            "default_profile": {
+                                "BOOL": false
+                            },
+                            "following": {
+                                "BOOL": false
+                            },
+                            "followers_count": {
+                                "N": "246"
+                            },
+                            "profile_use_background_image": {
+                                "BOOL": false
+                            },
+                            "name": {
+                                "S": "Jan Hein Hoogstad"
+                            },
+                            "location": {
+                                "S": "Boulder, CO"
+                            },
+                            "profile_sidebar_fill_color": {
+                                "S": "000000"
+                            },
+                            "notifications": {
+                                "BOOL": false
+                            }
+                        }
+                    },
+                    "favorited": {
+                        "BOOL": true
+                    }
+                },
+                "SequenceNumber": "1100000000010119398304",
+                "SizeBytes": 2654,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:eu-west-1:774182433398:table/tweets/stream/2016-07-15T19:06:30.724"
+        },
+        {
+            "eventID": "47d18bb11d2ece96dca0617e62cdf2d3",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "eu-west-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1468609680,
+                "Keys": {
+                    "id": {
+                        "N": "753664072655179800"
+                    }
+                },
+                "NewImage": {
+                    "in_reply_to_status_id_str": {
+                        "NULL": true
+                    },
+                    "in_reply_to_status_id": {
+                        "NULL": true
+                    },
+                    "coordinates": {
+                        "NULL": true
+                    },
+                    "created_at": {
+                        "S": "Thu Jul 14 18:54:51 +0000 2016"
+                    },
+                    "in_reply_to_user_id_str": {
+                        "NULL": true
+                    },
+                    "truncated": {
+                        "BOOL": false
+                    },
+                    "source": {
+                        "S": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>"
+                    },
+                    "retweeted_status": {
+                        "M": {
+                            "in_reply_to_status_id_str": {
+                                "S": "753639575734616064"
+                            },
+                            "in_reply_to_status_id": {
+                                "N": "753639575734616000"
+                            },
+                            "coordinates": {
+                                "NULL": true
+                            },
+                            "truncated": {
+                                "BOOL": false
+                            },
+                            "in_reply_to_user_id_str": {
+                                "S": "110205768"
+                            },
+                            "created_at": {
+                                "S": "Thu Jul 14 18:52:42 +0000 2016"
+                            },
+                            "source": {
+                                "S": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>"
+                            },
+                            "retweet_count": {
+                                "N": "1"
+                            },
+                            "retweeted": {
+                                "BOOL": true
+                            },
+                            "geo": {
+                                "NULL": true
+                            },
+                            "in_reply_to_screen_name": {
+                                "S": "BaukeMollema"
+                            },
+                            "is_quote_status": {
+                                "BOOL": false
+                            },
+                            "entities": {
+                                "M": {
+                                    "urls": {
+                                        "L": []
+                                    },
+                                    "hashtags": {
+                                        "L": [
+                                            {
+                                                "M": {
+                                                    "indices": {
+                                                        "L": [
+                                                            {
+                                                                "N": "73"
+                                                            },
+                                                            {
+                                                                "N": "82"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "text": {
+                                                        "S": "tourfail"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "user_mentions": {
+                                        "L": [
+                                            {
+                                                "M": {
+                                                    "indices": {
+                                                        "L": [
+                                                            {
+                                                                "N": "0"
+                                                            },
+                                                            {
+                                                                "N": "13"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "screen_name": {
+                                                        "S": "BaukeMollema"
+                                                    },
+                                                    "id_str": {
+                                                        "S": "110205768"
+                                                    },
+                                                    "name": {
+                                                        "S": "Bauke Mollema"
+                                                    },
+                                                    "id": {
+                                                        "N": "110205768"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "symbols": {
+                                        "L": []
+                                    }
+                                }
+                            },
+                            "id_str": {
+                                "S": "753663529073475589"
+                            },
+                            "in_reply_to_user_id": {
+                                "N": "110205768"
+                            },
+                            "favorite_count": {
+                                "N": "3"
+                            },
+                            "text": {
+                                "S": "@BaukeMollema its all about the money not about sports or being sportive #tourfail"
+                            },
+                            "contributors": {
+                                "NULL": true
+                            },
+                            "id": {
+                                "N": "753663529073475600"
+                            },
+                            "place": {
+                                "NULL": true
+                            },
+                            "lang": {
+                                "S": "en"
+                            },
+                            "user": {
+                                "M": {
+                                    "utc_offset": {
+                                        "N": "7200"
+                                    },
+                                    "friends_count": {
+                                        "N": "809"
+                                    },
+                                    "profile_image_url_https": {
+                                        "S": "https://pbs.twimg.com/profile_images/658318288569696257/Fnnt1mh__normal.jpg"
+                                    },
+                                    "profile_background_image_url": {
+                                        "S": "http://abs.twimg.com/images/themes/theme1/bg.png"
+                                    },
+                                    "listed_count": {
+                                        "N": "56"
+                                    },
+                                    "default_profile_image": {
+                                        "BOOL": false
+                                    },
+                                    "favourites_count": {
+                                        "N": "2217"
+                                    },
+                                    "description": {
+                                        "S": "geïnteresseerd in de wereld | Media Creative| Inform & inspire people | traveller | Innovate | #liveandletlive | #Journalism #RIAB"
+                                    },
+                                    "created_at": {
+                                        "S": "Fri Apr 25 05:04:08 +0000 2008"
+                                    },
+                                    "is_translator": {
+                                        "BOOL": false
+                                    },
+                                    "profile_background_image_url_https": {
+                                        "S": "https://abs.twimg.com/images/themes/theme1/bg.png"
+                                    },
+                                    "protected": {
+                                        "BOOL": false
+                                    },
+                                    "screen_name": {
+                                        "S": "marc_brouwer"
+                                    },
+                                    "profile_link_color": {
+                                        "S": "3B94D9"
+                                    },
+                                    "id_str": {
+                                        "S": "14522741"
+                                    },
+                                    "is_translation_enabled": {
+                                        "BOOL": false
+                                    },
+                                    "id": {
+                                        "N": "14522741"
+                                    },
+                                    "profile_background_color": {
+                                        "S": "EBEBEB"
+                                    },
+                                    "geo_enabled": {
+                                        "BOOL": true
+                                    },
+                                    "lang": {
+                                        "S": "nl"
+                                    },
+                                    "has_extended_profile": {
+                                        "BOOL": false
+                                    },
+                                    "profile_sidebar_border_color": {
+                                        "S": "DFDFDF"
+                                    },
+                                    "profile_text_color": {
+                                        "S": "333333"
+                                    },
+                                    "verified": {
+                                        "BOOL": false
+                                    },
+                                    "profile_image_url": {
+                                        "S": "http://pbs.twimg.com/profile_images/658318288569696257/Fnnt1mh__normal.jpg"
+                                    },
+                                    "time_zone": {
+                                        "S": "Amsterdam"
+                                    },
+                                    "contributors_enabled": {
+                                        "BOOL": false
+                                    },
+                                    "url": {
+                                        "NULL": true
+                                    },
+                                    "profile_background_tile": {
+                                        "BOOL": false
+                                    },
+                                    "profile_banner_url": {
+                                        "S": "https://pbs.twimg.com/profile_banners/14522741/1447923009"
+                                    },
+                                    "entities": {
+                                        "M": {
+                                            "description": {
+                                                "M": {
+                                                    "urls": {
+                                                        "L": []
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "statuses_count": {
+                                        "N": "15307"
+                                    },
+                                    "follow_request_sent": {
+                                        "BOOL": false
+                                    },
+                                    "default_profile": {
+                                        "BOOL": false
+                                    },
+                                    "following": {
+                                        "BOOL": false
+                                    },
+                                    "followers_count": {
+                                        "N": "1015"
+                                    },
+                                    "profile_use_background_image": {
+                                        "BOOL": false
+                                    },
+                                    "name": {
+                                        "S": "Marc Brouwer"
+                                    },
+                                    "location": {
+                                        "S": "floating through life"
+                                    },
+                                    "profile_sidebar_fill_color": {
+                                        "S": "F3F3F3"
+                                    },
+                                    "notifications": {
+                                        "BOOL": false
+                                    }
+                                }
+                            },
+                            "favorited": {
+                                "BOOL": true
+                            }
+                        }
+                    },
+                    "retweet_count": {
+                        "N": "1"
+                    },
+                    "retweeted": {
+                        "BOOL": true
+                    },
+                    "geo": {
+                        "NULL": true
+                    },
+                    "in_reply_to_screen_name": {
+                        "NULL": true
+                    },
+                    "is_quote_status": {
+                        "BOOL": false
+                    },
+                    "entities": {
+                        "M": {
+                            "urls": {
+                                "L": []
+                            },
+                            "hashtags": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "91"
+                                                    },
+                                                    {
+                                                        "N": "100"
+                                                    }
+                                                ]
+                                            },
+                                            "text": {
+                                                "S": "tourfail"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "user_mentions": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "3"
+                                                    },
+                                                    {
+                                                        "N": "16"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "marc_brouwer"
+                                            },
+                                            "id_str": {
+                                                "S": "14522741"
+                                            },
+                                            "name": {
+                                                "S": "Marc Brouwer"
+                                            },
+                                            "id": {
+                                                "N": "14522741"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "indices": {
+                                                "L": [
+                                                    {
+                                                        "N": "18"
+                                                    },
+                                                    {
+                                                        "N": "31"
+                                                    }
+                                                ]
+                                            },
+                                            "screen_name": {
+                                                "S": "BaukeMollema"
+                                            },
+                                            "id_str": {
+                                                "S": "110205768"
+                                            },
+                                            "name": {
+                                                "S": "Bauke Mollema"
+                                            },
+                                            "id": {
+                                                "N": "110205768"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "symbols": {
+                                "L": []
+                            }
+                        }
+                    },
+                    "id_str": {
+                        "S": "753664072655179776"
+                    },
+                    "in_reply_to_user_id": {
+                        "NULL": true
+                    },
+                    "favorite_count": {
+                        "N": "0"
+                    },
+                    "contributors": {
+                        "NULL": true
+                    },
+                    "id": {
+                        "N": "753664072655179800"
+                    },
+                    "place": {
+                        "NULL": true
+                    },
+                    "text": {
+                        "S": "RT @marc_brouwer: @BaukeMollema its all about the money not about sports or being sportive #tourfail"
+                    },
+                    "lang": {
+                        "S": "en"
+                    },
+                    "user": {
+                        "M": {
+                            "utc_offset": {
+                                "N": "10800"
+                            },
+                            "friends_count": {
+                                "N": "329"
+                            },
+                            "profile_image_url_https": {
+                                "S": "https://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "profile_background_image_url": {
+                                "S": "http://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "listed_count": {
+                                "N": "44"
+                            },
+                            "default_profile_image": {
+                                "BOOL": false
+                            },
+                            "favourites_count": {
+                                "N": "888"
+                            },
+                            "description": {
+                                "S": "'Think'.gsub(/[.ink]/, tinkerer[2..-1]) = thinkerer"
+                            },
+                            "created_at": {
+                                "S": "Fri Jan 16 00:05:46 +0000 2009"
+                            },
+                            "is_translator": {
+                                "BOOL": false
+                            },
+                            "profile_background_image_url_https": {
+                                "S": "https://abs.twimg.com/images/themes/theme1/bg.png"
+                            },
+                            "protected": {
+                                "BOOL": false
+                            },
+                            "screen_name": {
+                                "S": "yeehaa"
+                            },
+                            "profile_link_color": {
+                                "S": "DD2E44"
+                            },
+                            "id_str": {
+                                "S": "19046408"
+                            },
+                            "is_translation_enabled": {
+                                "BOOL": false
+                            },
+                            "id": {
+                                "N": "19046408"
+                            },
+                            "profile_background_color": {
+                                "S": "000000"
+                            },
+                            "geo_enabled": {
+                                "BOOL": true
+                            },
+                            "lang": {
+                                "S": "en"
+                            },
+                            "has_extended_profile": {
+                                "BOOL": true
+                            },
+                            "profile_sidebar_border_color": {
+                                "S": "000000"
+                            },
+                            "profile_text_color": {
+                                "S": "000000"
+                            },
+                            "verified": {
+                                "BOOL": false
+                            },
+                            "profile_image_url": {
+                                "S": "http://pbs.twimg.com/profile_images/507277248919924736/HeS44Gou_normal.jpeg"
+                            },
+                            "time_zone": {
+                                "S": "Athens"
+                            },
+                            "contributors_enabled": {
+                                "BOOL": false
+                            },
+                            "url": {
+                                "S": "https://t.co/QJBAktzEjY"
+                            },
+                            "profile_background_tile": {
+                                "BOOL": false
+                            },
+                            "profile_banner_url": {
+                                "S": "https://pbs.twimg.com/profile_banners/19046408/1371019465"
+                            },
+                            "entities": {
+                                "M": {
+                                    "description": {
+                                        "M": {
+                                            "urls": {
+                                                "L": []
+                                            }
+                                        }
+                                    },
+                                    "url": {
+                                        "M": {
+                                            "urls": {
+                                                "L": [
+                                                    {
+                                                        "M": {
+                                                            "display_url": {
+                                                                "S": "offcourse.io"
+                                                            },
+                                                            "indices": {
+                                                                "L": [
+                                                                    {
+                                                                        "N": "0"
+                                                                    },
+                                                                    {
+                                                                        "N": "23"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "expanded_url": {
+                                                                "S": "http://offcourse.io"
+                                                            },
+                                                            "url": {
+                                                                "S": "https://t.co/QJBAktzEjY"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "statuses_count": {
+                                "N": "2979"
+                            },
+                            "follow_request_sent": {
+                                "BOOL": false
+                            },
+                            "default_profile": {
+                                "BOOL": false
+                            },
+                            "following": {
+                                "BOOL": false
+                            },
+                            "followers_count": {
+                                "N": "246"
+                            },
+                            "profile_use_background_image": {
+                                "BOOL": false
+                            },
+                            "name": {
+                                "S": "Jan Hein Hoogstad"
+                            },
+                            "location": {
+                                "S": "Boulder, CO"
+                            },
+                            "profile_sidebar_fill_color": {
+                                "S": "000000"
+                            },
+                            "notifications": {
+                                "BOOL": false
+                            }
+                        }
+                    },
+                    "favorited": {
+                        "BOOL": true
+                    }
+                },
+                "SequenceNumber": "1200000000010119398305",
+                "SizeBytes": 4161,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:eu-west-1:774182433398:table/tweets/stream/2016-07-15T19:06:30.724"
+        }
+    ]
+}
